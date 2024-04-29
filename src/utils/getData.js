@@ -1,5 +1,5 @@
 const API = 'https://api.openweathermap.org/data/2.5/weather?lat=-32.47&lon=-58.29'
-const KEY = '2119b36a60aeb3b0e344306eaa43bfc4'
+const KEY = ''
 
 const getData = async () => {
     const apiURL = `${API}&appid=${KEY}&units=metric`;
